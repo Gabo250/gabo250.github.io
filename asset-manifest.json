@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.7b10a350.css",
-    "main.js": "/static/js/main.a1a8638d.js",
-    "static/media/home_bg.jpg": "/static/media/home_bg.7b67a4d2e5ee3b1075b8.jpg",
-    "static/media/logo.png": "/static/media/logo.4374061cde34e80b587f.png",
-    "static/media/price_bg.jpg": "/static/media/price_bg.9032f054bff43289c603.jpg",
-    "index.html": "/index.html",
-    "main.7b10a350.css.map": "/static/css/main.7b10a350.css.map",
-    "main.a1a8638d.js.map": "/static/js/main.a1a8638d.js.map"
+    "main.css": "/gabo250.github.io/static/css/main.54122a8a.css",
+    "main.js": "/gabo250.github.io/static/js/main.a1a8638d.js",
+    "static/media/home_bg.jpg": "/gabo250.github.io/static/media/home_bg.7b67a4d2e5ee3b1075b8.jpg",
+    "static/media/logo.png": "/gabo250.github.io/static/media/logo.4374061cde34e80b587f.png",
+    "static/media/price_bg.jpg": "/gabo250.github.io/static/media/price_bg.9032f054bff43289c603.jpg",
+    "index.html": "/gabo250.github.io/index.html",
+    "main.54122a8a.css.map": "/gabo250.github.io/static/css/main.54122a8a.css.map",
+    "main.a1a8638d.js.map": "/gabo250.github.io/static/js/main.a1a8638d.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b10a350.css",
+    "static/css/main.54122a8a.css",
     "static/js/main.a1a8638d.js"
   ]
 }
