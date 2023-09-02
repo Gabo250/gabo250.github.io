@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/gyemantkucko/static/css/main.0dfba714.css",
-    "main.js": "/gyemantkucko/static/js/main.a1a8638d.js",
+    "main.css": "/gyemantkucko/static/css/main.53bdc514.css",
+    "main.js": "/gyemantkucko/static/js/main.c62815f5.js",
     "static/media/home_bg.jpg": "/gyemantkucko/static/media/home_bg.7b67a4d2e5ee3b1075b8.jpg",
     "static/media/logo.png": "/gyemantkucko/static/media/logo.4374061cde34e80b587f.png",
     "static/media/price_bg.jpg": "/gyemantkucko/static/media/price_bg.9032f054bff43289c603.jpg",
     "index.html": "/gyemantkucko/index.html",
-    "main.0dfba714.css.map": "/gyemantkucko/static/css/main.0dfba714.css.map",
-    "main.a1a8638d.js.map": "/gyemantkucko/static/js/main.a1a8638d.js.map"
+    "main.53bdc514.css.map": "/gyemantkucko/static/css/main.53bdc514.css.map",
+    "main.c62815f5.js.map": "/gyemantkucko/static/js/main.c62815f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.0dfba714.css",
-    "static/js/main.a1a8638d.js"
+    "static/css/main.53bdc514.css",
+    "static/js/main.c62815f5.js"
   ]
 }
