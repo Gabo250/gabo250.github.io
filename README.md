@@ -1,2 +1,2 @@
-# Massage Website for a woman
+# Massage Website for a customer
 This website created with React and using Tailwind css
