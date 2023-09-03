@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/gyemantkucko/static/css/main.95b4a809.css",
-    "main.js": "/gyemantkucko/static/js/main.48c520c5.js",
+    "main.js": "/gyemantkucko/static/js/main.3081e628.js",
     "static/media/home_bg.webp": "/gyemantkucko/static/media/home_bg.d9117a613586e1ed66b5.webp",
     "static/media/price_bg.webp": "/gyemantkucko/static/media/price_bg.4707d7b715eb59fd7aaf.webp",
     "static/media/logo.webp": "/gyemantkucko/static/media/logo.e0a8a58483f5e4dc56f8.webp",
     "index.html": "/gyemantkucko/index.html",
     "main.95b4a809.css.map": "/gyemantkucko/static/css/main.95b4a809.css.map",
-    "main.48c520c5.js.map": "/gyemantkucko/static/js/main.48c520c5.js.map"
+    "main.3081e628.js.map": "/gyemantkucko/static/js/main.3081e628.js.map"
   },
   "entrypoints": [
     "static/css/main.95b4a809.css",
-    "static/js/main.48c520c5.js"
+    "static/js/main.3081e628.js"
   ]
 }
