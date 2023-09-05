@@ -1,9 +1,9 @@
-import './App.css';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import Nav from './components/navcomp/Nav';
 import PriceList from './components/pricecomp/PriceList';
 import Service from './components/service/Service';
+import VideoSection from './components/videocomponent/VideoSection';
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <Nav/>
       <Header/>
       <Service/>
+      <VideoSection/>
       <PriceList/>
       <Footer/>
     </div>

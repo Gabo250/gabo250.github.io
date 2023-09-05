@@ -10,7 +10,7 @@ function About() {
     return (
         <article className="relative flex flex-row gap-10 w-4/5 xmd:w-11/12 justify-evenly items-center xmd:flex-col z-[2]">
             <div className="relative h-[290px]">
-                <img ref={iRef} className={`rounded-full w-full h-full ${iInViewbox ? "animate-fadein" : ""}`} src="./img/vik.jpg" alt="Nagy Viktória - Masszőr, Lélekgyógyász" />
+                <img ref={iRef} className={`rounded-full w-full h-full ${iInViewbox ? "animate-fadein" : ""}`} src="./img/vik.webp" alt="Nagy Viktória - Masszőr, Lélekgyógyász" />
             </div>
 
             <div className="w-1/2 xmd:w-11/12">

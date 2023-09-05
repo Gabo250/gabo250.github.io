@@ -4,9 +4,9 @@ import Tooltip from "./Tooltip";
 function Footer() {
     return (
         <footer id="conn" className="h-[30rem] xmd:h-[40rem] w-full bg-ftbg bg-cover z-[1]">
-            <section className="fixed xsm:relative flex flex-row xmd:flex-col justify-center gap-[10vw] xmd:gap-8 items-center top-[calc(100%-27rem)] rounded-2xl
-                                xmd:top-[calc(100%-37.5rem)] left-[50%] -translate-x-[50%] h-[25rem] xmd:h-[35rem] w-4/5
-                                xmd:w-11/12 xsm:!w-full backdrop-blur-lg z-[1] shadow-2xl shadow-purple-600">
+            <section className="fixed xsm:relative flex flex-row xmd:flex-col justify-center gap-[10vw] xmd:gap-8 items-center top-[calc(100%-30rem)]
+                                xmd:top-[calc(100%-40rem)] left-[50%] -translate-x-[50%] h-[30rem] xmd:h-[40rem] w-full
+                                backdrop-blur-md z-[1]">
                 
                 <div className="flex flex-col items-center xmd:flex-row xsm:!flex-col xsm:!gap-8 xmd:gap-[10vw] gap-10 mt-1">
                     <div className="flex flex-row items-center justify-center gap-8 border-dashed border-b-[1px] xmd:border-b-0 border-purple-300 xmd:border-r-[1px]

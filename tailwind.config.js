@@ -22,7 +22,7 @@ module.exports = {
         disappear: 'disappear 1s',
         slidedown: 'slide-down 1s',
         slideup: 'slide-up 1s linear',
-        revealright: 'reveal-right 1.5s linear',
+        revealright: 'reveal-right 3s ease-in-out',
         revealup: 'reveal-up 1s linear',
         fadein: 'fade-in 1.5s linear',
         slideleft: 'slide-left .7s linear',
@@ -82,12 +82,12 @@ module.exports = {
       },
 
       backgroundImage: {
-        'logo': "url('../public/img/logo.png')",
-        'home': "url('../public/img/home_bg.jpg')",
-        'profile': "url('../public/img/vik.jpg')",
-        'gems': "url('../public/img/gems.png')",
-        'pgem': 'url(../public/img/p_gem.png)',
-        'ftbg': 'url(../public/img/price_bg.jpg)'
+        'logo': "url('../public/img/logo.webp')",
+        'home': "url('../public/img/home_bg.webp')",
+        'profile': "url('../public/img/vik.webp')",
+        'gems': "url('../public/img/gems.webp')",
+        'pgem': 'url(../public/img/p_gem.webp)',
+        'ftbg': 'url(../public/img/price_bg.webp)'
       }
     },
 
