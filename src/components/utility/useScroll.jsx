@@ -2,19 +2,24 @@ import { useState, useEffect, useRef } from "react";
 
 function useScroll() {
     const [scrollY, setScrollY] = useState(0);
-    const prevScrollY = useRef(scrollY);
+    const [prevScrollY, setPrevScrollY] = useState(scrollY);
+
+    const timeOutID = useRef();
 
     useEffect(() => {
         const handleScroll = () => {
-            prevScrollY.current = scrollY;
-            setScrollY(window.scrollY);
+            timeOutID.current = setTimeout(() => {
+                setPrevScrollY(scrollY);
+                setScrollY(window.scrollY);
+            }, 200)            
         }
-
+        
         window.addEventListener("scroll", handleScroll, { passive: true });
-        return () => {
+        return () => {            
             window.removeEventListener('scroll', handleScroll);
+            clearTimeout(timeOutID.current);
         }
-    }, [scrollY]);
+    }, [scrollY, prevScrollY]);
 
     return [scrollY, prevScrollY];
 }

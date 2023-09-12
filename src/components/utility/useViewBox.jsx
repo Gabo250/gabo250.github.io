@@ -4,7 +4,7 @@ import useScroll from "./useScroll";
 function useViewBox(element) {
     const [inViewBox, setInViewBox] = useState(false);
     const [scrollY] = useScroll();
-    const offset = 50;
+    const OFFSET = 50;
 
     useEffect(() => {
         if (!element.current){
@@ -12,7 +12,7 @@ function useViewBox(element) {
         }
 
         const rect = element.current.getBoundingClientRect();          
-        if(Math.abs(rect.top) + offset < window.innerHeight && rect.bottom - offset > 0 && !inViewBox) {                           
+        if(Math.abs(rect.top) + OFFSET < window.innerHeight && rect.bottom - OFFSET > 0 && !inViewBox) {                           
             setInViewBox(true);                
         }
     }, [scrollY, inViewBox, element]);

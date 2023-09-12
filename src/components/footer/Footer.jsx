@@ -3,7 +3,7 @@ import Tooltip from "./Tooltip";
 
 function Footer() {
     return (
-        <footer id="conn" className="h-[30rem] xmd:h-[40rem] w-full bg-ftbg bg-cover z-[1]">
+        <footer id="conn" className="h-[30rem] xmd:h-[40rem] w-full bg-ftbg bg-cover z-[-1]">
             <section className="fixed xsm:relative flex flex-row xmd:flex-col justify-center gap-[10vw] xmd:gap-8 items-center top-[calc(100%-30rem)]
                                 xmd:top-[calc(100%-40rem)] left-[50%] -translate-x-[50%] h-[30rem] xmd:h-[40rem] w-full
                                 backdrop-blur-md z-[1]">

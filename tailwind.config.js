@@ -18,7 +18,6 @@ module.exports = {
 
       animation: {
         revealdown: 'reveal-down 1s',
-        'bounce-duration': 'bounce 1s',
         disappear: 'disappear 1s',
         slidedown: 'slide-down 1s',
         slideup: 'slide-up 1s linear',

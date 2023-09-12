@@ -9,15 +9,16 @@ function About() {
 
     return (
         <article className="relative flex flex-row gap-10 w-4/5 xmd:w-11/12 justify-evenly items-center xmd:flex-col z-[2]">
-            <div className="relative h-[290px]">
-                <img ref={iRef} className={`rounded-full w-full h-full ${iInViewbox ? "animate-fadein" : ""}`} src="./img/vik.webp" alt="Nagy Viktória - Masszőr, Lélekgyógyász" />
+            <div className="relative h-[290px] hidden">
+                    <img ref={iRef} className={`rounded-full w-full h-full ${iInViewbox ? "animate-fadein [animation-delay:.2s]" : ""}`} src="./img/vik.webp" alt="Nagy Viktória - Masszőr, Lélekgyógyász" /> 
             </div>
+            
 
             <div className="w-1/2 xmd:w-11/12">
                 <h2 className="text-justify leading-6">                   
                     <p>
                         <span ref={nRef} className={`font-extrabold text-3xl mr-2 relative text-transparent
-                                                    ${ nInViewBox ? "after:animate-revealright" : "" }
+                                                    ${ nInViewBox ? "after:animate-revealright [animation-delay:.2s]" : "" }
                                                     after:content-['Nagy_Viktória'] after:absolute after:-top-[.2px] after:left-[.6px]
                                                     after:w-full after:text-purple-500 after:whitespace-nowrap after:overflow-hidden
                                                     after:[text-shadow:0px_0px_5px_#ffffff]`}>

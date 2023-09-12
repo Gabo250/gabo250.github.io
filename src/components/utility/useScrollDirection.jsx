@@ -6,7 +6,7 @@ function useScrollDirection() {
     const [scrollDirectionDown, setScrollDirectionDown] = useState(false);
 
     useEffect(() => {
-        let diff = scrollY - prevScrollY.current;
+        let diff = scrollY - prevScrollY;
         if (diff > 0 && !scrollDirectionDown) {
             setScrollDirectionDown(true);                           
         }

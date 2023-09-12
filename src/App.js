@@ -7,7 +7,7 @@ import VideoSection from './components/videocomponent/VideoSection';
 
 function App() {
   return (
-    <div className="bg-gradient-to-r from-black  via-purple-950 to-black overflow-x-hidden select-none ">
+    <div className="bg-gradient-to-r from-black  via-purple-950 to-black overflow-x-hidden select-none z-[2]">
       <Nav/>
       <Header/>
       <Service/>

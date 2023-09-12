@@ -1,6 +1,6 @@
 function Burger({ clickHandle, checkRef }) {
     return (
-        <label for="burgcheck" className="relative h-8 w-8 top-3 pb-10 cursor-pointer select-none hidden md:block xsm:mr-4">
+        <label className="relative h-8 w-8 top-3 pb-10 cursor-pointer select-none hidden md:block xsm:mr-4">
             <input id="burgcheck" ref={checkRef} onClick={clickHandle} className="absolute cursor-pointer h-0 w-0 opacity-0 peer" type="checkbox"/>            
             <span className="absolute top-1 left-0 bg-slate-100 h-[2.5px] w-7 origin-left
                              peer-checked:rotate-[45deg] peer-checked:top-1 transition-all duration-500
