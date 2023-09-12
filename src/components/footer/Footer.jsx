@@ -1,3 +1,4 @@
+import { personalInfo } from "../utility/Datas";
 import { EmailIcon, FBIcon, InstaIcon, PhoneIcon } from "../utility/Icons";
 import Tooltip from "./Tooltip";
 
@@ -24,12 +25,12 @@ function Footer() {
                     <div className="flex flex-col">
                         <div className="relative flex flex-row gap-2 items-center group">
                             <EmailIcon/>
-                            <span className="italic select-text">ggaborr1@gmail.com</span>
+                            <span className="italic select-text">{ personalInfo.email }</span>
                         </div>
 
                         <div className="relative group flex flex-row gap-2 items-center">
                             <PhoneIcon/>
-                            <span className="italic select-text">+36303376136</span>
+                            <span className="italic select-text">{ personalInfo.phone }</span>
                         </div>
                     </div>
                 </div>

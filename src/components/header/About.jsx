@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import useViewBox from "../utility/useViewBox";
+import { personalInfo } from "../utility/Datas";
 
 function About() {
     const iRef = useRef();
@@ -21,9 +22,8 @@ function About() {
                                                     ${ nInViewBox ? "after:animate-revealright [animation-delay:.2s]" : "" }
                                                     after:content-['Nagy_Viktória'] after:absolute after:-top-[.2px] after:left-[.6px]
                                                     after:w-full after:text-purple-500 after:whitespace-nowrap after:overflow-hidden
-                                                    after:[text-shadow:0px_0px_5px_#ffffff]`}>
-                            Nagy Viktória
-                        </span>
+                                                    after:[text-shadow:0px_0px_5px_#ffffff]`}
+                        >{ personalInfo.name }</span>
                         vagyok, masszőr és lélekgyógyító.
                         Az én szenvedélyem az emberek segítése abban, hogy testben és lélekben egyaránt harmóniára találjanak.
                         Hiszek abban, hogy az egészség és a boldogság összefonódik,

@@ -15,7 +15,7 @@ function VideoSection() {
                             className={`relative uppercase ml-2 text-transparent after:content-['Kuckóba']
                                         after:absolute after:-top-[.1rem] after:left-0 ${ textInViewBox ? "after:animate-revealright visible" : "invisible"}
                                         after:bg-gradient-to-r after:from-pink-500 after:to-violet-700
-                                        after:overflow-hidden after:bg-clip-text`}
+                                        after:overflow-hidden after:bg-clip-text after:[animation-iteration-count:infinite]`}
                         >Kuckóba</span>
                     </h2>
                     <p></p>

@@ -7,6 +7,13 @@ export const menuItems = [
     { name: "Kapcsolat", href: "#conn", icon: <ConnIcon/> }
 ];
 
+export const personalInfo = 
+    { 
+        name: "Nagy Viktória",
+        phone: "+36301096452",
+        email: "testlelekhangja@gmail.com"
+    };
+
 export const priceItems = [
     { name: "Svéd Relaxáló Masszázs", price: {'30 perc': "3 000 Ft", '60 perc': "6 000 Ft", '90 perc': "9 000 Ft"} },
     { name: "Teljes Test - Láb, Hát, Kar, Nyak, Arc", price: {'90 perc': "8 000 Ft"} },
