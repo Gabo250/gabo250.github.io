@@ -3,6 +3,7 @@ import Header from './components/header/Header';
 import Nav from './components/navcomp/Nav';
 import PriceList from './components/pricecomp/PriceList';
 import Service from './components/service/Service';
+import Cookie from './components/utility/Cookie';
 import VideoSection from './components/videocomponent/VideoSection';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <VideoSection/>
       <PriceList/>
       <Footer/>
+      <Cookie/>
     </div>
   );
 }
