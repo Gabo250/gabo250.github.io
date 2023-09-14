@@ -10,8 +10,8 @@ export const menuItems = [
 export const personalInfo = 
     { 
         name: "Nagy Viktória",
-        phone: "+36301096452",
-        email: "testlelekhangja@gmail.com"
+        phone: "+36(30)109-6452",
+        email: "info@gyemantkucko.hu"
     };
 
 export const priceItems = [
