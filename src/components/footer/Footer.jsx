@@ -4,14 +4,14 @@ import Tooltip from "./Tooltip";
 
 function Footer() {
     return (
-        <footer id="conn" className="h-[30rem] xmd:h-[40rem] w-full bg-ftbg bg-cover z-[-1]">
-            <section className="fixed xsm:relative flex flex-row xmd:flex-col justify-center gap-[10vw] xmd:gap-8 items-center top-[calc(100%-30rem)]
-                                xmd:top-[calc(100%-40rem)] left-[50%] -translate-x-[50%] h-[30rem] xmd:h-[40rem] w-full
-                                backdrop-blur-md z-[1]">
+        <footer id="conn" className="h-[40rem] w-full bg-ftbg bg-cover z-[-1]">
+            <section className="fixed flex flex-col justify-center gap-[2vw] items-center top-[calc(100%-40rem)]
+                                left-[50%] -translate-x-[50%] h-[40rem]  w-full backdrop-blur-md z-[1]
+                                xsm:relative xmd:gap-8 xmd:top-[calc(100%-40rem)] xmd:h-[40rem]">
                 
-                <div className="flex flex-col items-center xmd:flex-row xsm:!flex-col xsm:!gap-8 xmd:gap-[10vw] gap-10 mt-1">
-                    <div className="flex flex-row items-center justify-center gap-8 border-dashed border-b-[1px] xmd:border-b-0 border-purple-300 xmd:border-r-[1px]
-                                    pb-10 xmd:pb-0 xmd:pr-16 xsm:!border-r-0 xsm:!border-b-[1px] xsm:!pb-10 xsm:!pr-0">
+                <div className="flex flex-col items-center xsm:!gap-8 xmd:gap-[5vw] gap-10 mt-1">
+                    <div className="flex flex-row items-center justify-center gap-8 border-dashed border-b-[1px] border-purple-300
+                                    pb-10 xsm:!border-r-0 xsm:!border-b-[1px] xsm:!pb-10 xsm:!pr-0">
                         <a target="_blank" aria-label="Check my Instagram page" rel="noreferrer external" href="https://www.facebook.com/profile.php?id=100091972387797" className="relative group">
                             <FBIcon classes={"hover:scale-110 transition-all drop-shadow-[0px_5px_6px_#4444dd]"}/>
                             <Tooltip>Facebook</Tooltip>
@@ -42,7 +42,7 @@ function Footer() {
                     allowFullScreen
                     src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJJ5v58gfBQUcRROLTg4f8mcw&key=AIzaSyAx8doNzpjexsyC0WW2_PlBfUKWa_O3nNA"
                 ></iframe>
-            </section>            
+            </section>
         </footer>
     );
 }
