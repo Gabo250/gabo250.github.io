@@ -21,10 +21,10 @@ function Cookie() {
                 </button>            
             </div>
 
-            <div className={`fixed w-[700px] md:w-[100vw] ${ visible ? "flex" : "hidden" } bg-slate-700 bg-opacity-25 py-2 px-3 bottom-3
+            <div className={`fixed w-[700px] md:w-[100vw] ${ visible ? "flex sm:block" : "hidden" } bg-slate-700 bg-opacity-25 py-2 px-3 bottom-3
                             left-[50%] -translate-x-[50%] flex-row justify-between items-center z-10 backdrop-blur-sm`}>
-                <p className="text-[.8rem] xmd:ml-3">Az oldal látogatásával automatikusan elfogadod, hogy a szükséges sütiket használja.</p>
-                <button aria-label="Bezárás" onClick={ handleCloseClick } className="mr-1 rounded-sm bg-purple-500 bg-opacity-30 px-3 py-1 text-[.8rem]">
+                <p className="text-[.8rem] xmd:ml-3 text-center">Az oldal látogatásával automatikusan elfogadod, hogy a szükséges sütiket használja.</p>
+                <button aria-label="Bezárás" onClick={ handleCloseClick } className="mr-1 rounded-sm bg-purple-500 bg-opacity-30 px-3 py-1 text-[.8rem] sm:ml-[50%] sm:-translate-x-[50%]">
                     OK
                 </button>
             </div>
