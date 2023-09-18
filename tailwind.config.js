@@ -82,7 +82,7 @@ module.exports = {
 
       backgroundImage: {
         'logo': "url('../public/img/logo.webp')",
-        'home': "url('../public/img/home_bg.webp')",
+        'home': "url('../public/img/főoldal háttér.webp')",
         'profile': "url('../public/img/vik.webp')",
         'gems': "url('../public/img/gems.webp')",
         'pgem': 'url(../public/img/p_gem.webp)',

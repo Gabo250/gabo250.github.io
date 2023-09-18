@@ -35,7 +35,7 @@ export const serviceItems = [
                      Finom, simító és gyúró mozdulatokkal dolgozunk az izmokon, enyhítve a feszültséget és csökkentve a stresszt.
                      A kezelés segíti a vérkeringést, lazítja az izmokat és javítja az általános közérzetet.
                      A svéd masszázs gyakran használt módszer a pihenésre és a testi-lelki egyensúly helyreállítására.`,
-        img: "./img/swedish_massage.webp",
+        img: "./img/svéd masszázs.webp",
         alt: "svéd hátmasszázs"
     },
 
@@ -49,7 +49,7 @@ export const serviceItems = [
                      A Masszázs enyhíti a feszültséget, javítja a vérkeringést, lazítja az izmokat és segíti az energetikai áramlást.
                      A thai herbál labdacs masszázs hozzájárul a test és a lélek harmóniájának eléréséhez,
                      és gyakran alkalmazható stresszkezelésre és általános jóllét javítására.`,
-        img: "./img/thai_massage.webp",
+        img: "./img/thai masszázs.webp",
         alt: "Thai Labdacs Masszázs"
     },
 
@@ -60,7 +60,7 @@ export const serviceItems = [
                      Gyengéd mozdulatokkal munkáljuk az arcbőrt, elősegítve a vérkeringést és az izmok ellazulását.
                      Ez a fajta masszázs nem csak az izmokat lazítja, hanem a stresszt is csökkenti, és az arc általános megjelenését is javítja.
                      A japán arcmasszázst gyakran használják a relaxációra, a stressz enyhítésére és az arc revitalizálására.`,
-        img: "./img/japan_massage.webp",
+        img: "./img/japán arcmasszázs.webp",
         alt: "japán arcmasszázs"
     },
 
@@ -73,7 +73,7 @@ export const serviceItems = [
                     Ez a módszer segíthet az izomfeszültség enyhítésében, a vérkeringés serkentésében és a fájdalom csökkentésében.
                     A gyógynövényekből és illóolajokból származó párolgás és az ütögető mozdulatok kombinációja segít ellazítani az izmokat és enyhíteni a feszültséget.
                     `,
-        img:"./img/vital_massage.webp",
+        img:"./img/köpölyözés.webp",
         alt:"Köpölyök a háton"
     },
 
@@ -85,7 +85,7 @@ export const serviceItems = [
                      Az elv az, hogy ezek a területek kapcsolatban állnak az embrió fejlődési időszakával,
                      és az érintés segíthet oldani az ott raktározott blokkokat és feszültségeket.
                      A metamorf masszázs célja az energetikai egyensúly helyreállítása és a lelki, testi és érzelmi feszültségek enyhítése.`,
-        img: "./img/metaform_massage.webp",
+        img: "./img/metamorf masszázs.webp",
         alt: "metaform masszázs - láb-kéz-arc"
     },
 
@@ -96,7 +96,7 @@ export const serviceItems = [
                      amelyek kapcsolatban állnak az alapvető életenergiával.
                      Finom érintésekkel és nyomásokkal stimuláljuk ezeket a területeket, segítve az energiák áramlását és a blokkok feloldását.
                      A talpcsakra masszázs célja az energetikai egyensúly helyreállítása, a stressz csökkentése és a test-lélek harmónia elősegítése.`,
-        img: "./img/talpcsakra_massage.webp",
+        img: "./img/talpcsakra masszázs.webp",
         alt: "talpcsakra lábmasszázs"
     },
 
@@ -107,7 +107,7 @@ export const serviceItems = [
                      amely szerint a láb talpa összekapcsolódik a test különböző részeivel és szerveivel.
                      Nyomást, dörzsölést és simítást alkalmazunk a különböző reflexzónákra, segítve a vérkeringést,
                      enyhítve a feszültségeket és javítva az energetikai áramlást a testben.`,
-        img: "./img/foot_massage.webp",
+        img: "./img/lábmasszázs.webp",
         alt: "lábmasszázs"
     }
 ];

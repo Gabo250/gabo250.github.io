@@ -24,7 +24,7 @@ function ServiceCard({ name, description, imgUrl, alt, posLeft }) {
                     <>
                         <img ref={imgRef} src={ imgUrl } alt={ alt } className={`row-span-2 p-6 w-52 h-52 rounded-full object-cover ml-[50%] -translate-x-[50%]
                                                                                 ${imgInViewBox ? 'animate-fadein' : ''} ${imgInViewBox ? 'visible' : 'invisible'}`}/>
-                        <h2 data-name={name} className={`font-dance text-center text-2xl md:pb-6 pt-6 text-lime-300`}>{ name }</h2>
+                        <h3 data-name={name} className={`font-dance text-center text-2xl md:pb-6 pt-6 text-lime-300`}>{ name }</h3>
                         <div className="overflow-hidden">
                             <p ref={textRef} className={`relative text-center xsm:text-justify text-sm xsm:text-xs leading-5 sm:pr-0 pr-12 pb-6
                                                         ${textInVievBox ? 'md:animate-slidedown' : ''} ${textInVievBox ? 'visible' : 'invisible'}`}>{ description }</p>
@@ -32,7 +32,7 @@ function ServiceCard({ name, description, imgUrl, alt, posLeft }) {
                     </>
                         :
                     <>
-                        <h2 className={`font-dance text-center text-2xl md:pb-6 pt-6 text-lime-300 overflow-hidden`}>{ name }</h2>                   
+                        <h3 className={`font-dance text-center text-2xl md:pb-6 pt-6 text-lime-300 overflow-hidden`}>{ name }</h3>                   
                         <img ref={imgRef} src={ imgUrl } alt={ alt } className={`row-span-2 p-6 w-52 h-52 rounded-full object-cover ml-[50%] -translate-x-[50%]
                                                                                 ${imgInViewBox ? 'animate-fadein' : ''} ${imgInViewBox ? 'visible' : 'invisible'}`}/>
                         <div className="overflow-hidden">
