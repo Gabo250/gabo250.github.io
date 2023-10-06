@@ -16,9 +16,9 @@ function ServiceCard({ name, description, imgUrl, alt, posLeft }) {
                                             ${artInViewBox && !posLeft ?
                                                 'mmd:animate-slideleft [clip-path:polygon(0_0,_100%_0,_100%_50%,_100%_100%,_10%_100%,_0_81%)]' : ''}  
                                              xmd:[clip-path:polygon(0_0,_100%_0,_100%_94%,_77%_100%,_0_100%,_0%_50%)]                                     
-                                             w-4/5 bg-purple-400 bg-opacity-10 grid grid-cols-[auto_auto]
+                                             w-[55rem] bg-purple-400 bg-opacity-10 grid grid-cols-[auto_auto]
                                              grid-rows-[auto_auto] gap-x-10 md:p-6 md:grid-cols-[auto] border-solid border-white border-[1px]
-                                             border-opacity-10`}>
+                                             border-opacity-10 xmd:w-11/12`}>
             { 
                 posLeft ? 
                     <>
