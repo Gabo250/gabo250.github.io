@@ -6,7 +6,7 @@ import useScrollDirection from "../utility/useScrollDirection";
 
 function Nav() {
     const menuRef = useRef();
-    const [slideDown] = useScrollDirection();
+    const slideDown = useScrollDirection();
     const isBurgerChecked = useRef();
 
     useEffect(() => {
