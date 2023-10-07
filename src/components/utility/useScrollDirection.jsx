@@ -1,6 +1,11 @@
 import { useEffect, useState } from "react";
 import useScroll from "./useScroll";
 
+/**
+* Sets the boolean flag 'scrollDirectionDown' that defines the current scroll direction
+*
+* @returns scrollDirectionDown
+*/
 function useScrollDirection() {
     const [scrollY, prevScrollY] = useScroll();
     const [scrollDirectionDown, setScrollDirectionDown] = useState(false);
@@ -15,7 +20,7 @@ function useScrollDirection() {
         }
     }, [scrollDirectionDown, scrollY, prevScrollY]);
 
-    return [scrollDirectionDown];
+    return scrollDirectionDown;
 }
 
 export default useScrollDirection;

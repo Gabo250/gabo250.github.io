@@ -1,5 +1,11 @@
 import { useState, useEffect, useRef } from "react";
 
+/**
+* Listening the current scroll position.
+*
+* @returns scrollY 
+* @returns prevScrollY
+*/
 function useScroll() {
     const [scrollY, setScrollY] = useState(0);
     const [prevScrollY, setPrevScrollY] = useState(scrollY);

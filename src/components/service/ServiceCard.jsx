@@ -1,6 +1,17 @@
 import { useRef } from "react";
 import useViewBox from "../utility/useViewBox";
 
+/**
+* Creates a Card for service component
+*
+* @param name Title of the card
+* @param description Text content of the card
+* @param imgUrl Image URL of the card
+* @param alt Alternate text of the image
+* @param posLeft Direction of the card
+*
+* @returns ServiceCard element
+*/
 function ServiceCard({ name, description, imgUrl, alt, posLeft }) {
     const articleRef = useRef();
     const imgRef = useRef();

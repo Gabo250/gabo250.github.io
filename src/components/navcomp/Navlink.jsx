@@ -1,5 +1,15 @@
 import "../../index.css";
 
+/**
+* Creates a Link element that is clicked scrolling to the given id's element
+*
+* @param to The given element's ID
+* @param scrollInfo The given scroll infos like smooth scrolling
+* @param first Boolean flag that defines if it is the first link
+* @param children Nested elements
+*
+* @returns Link
+*/
 function NavLink({ to, scrollInfo, first, children }) {
     
     function clickHandle(e) {

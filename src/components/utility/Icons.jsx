@@ -1,5 +1,6 @@
-//icons from ----!!!---- https://heroicons.com/ ----!!!----
+// ******This file contains the SVG elements that using on this website
 
+//icons from ----!!!---- https://heroicons.com/ ----!!!----
 export const HomeIcon = () => {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="purple" className="w-6 h-6 scale-125">
@@ -112,7 +113,6 @@ export const CookieIcon = () => {
 }
 
 //icons from ----!!!---- https://icons8.com/ ----!!!----
-
 export const FBIcon = ({ classes }) => {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" className={`w-12 h-12 ${classes}`} viewBox="0,0,256,256">

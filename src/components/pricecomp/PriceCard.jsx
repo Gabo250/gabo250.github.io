@@ -1,6 +1,14 @@
 import { useRef, useState } from "react";
 import useViewBox from "../utility/useViewBox";
 
+/**
+* Creates a Card for price component
+*
+* @param servName Title of the card
+* @param servTimePrice An object whose keys determine the time of the service, and whose values ​​determine the price of the service
+*
+* @returns PriceCard element
+*/
 function PriceCard({ servName, servTimePrice }) {    
     const objProperties = Object.keys(servTimePrice);
     const [price, setPrice] = useState(servTimePrice[objProperties[0]]);

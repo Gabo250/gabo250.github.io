@@ -1,3 +1,5 @@
+// ****** This file is created for datas using on this website
+
 import { ConnIcon, HomeIcon, PriceIcon, ServIcon } from "./Icons";
 
 export const menuItems = [
