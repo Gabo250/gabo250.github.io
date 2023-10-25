@@ -1,6 +1,0 @@
-name = "browser-rendering"
-main = "src/index.js"
-node_compat = true
-workers_dev = true
-
-browser = { binding = "MYBROWSER" }
