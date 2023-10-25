@@ -6,7 +6,7 @@ import App from './App';
 const rootElement = document.getElementById('root');
 
 if (rootElement.hasChildNodes()) {
-    ReactDOM.hydrateRoot(rootElement).render(<App />);
+    ReactDOM.hydrateRoot(rootElement, <App />);
 }
 else {
     ReactDOM.createRoot(rootElement).render(<App />);
