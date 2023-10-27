@@ -1,4 +1,5 @@
 import Footer from './components/footer/Footer';
+import About from './components/header/About';
 import Header from './components/header/Header';
 import Nav from './components/navcomp/Nav';
 import PriceList from './components/pricecomp/PriceList';
@@ -11,6 +12,7 @@ function App() {
     <div className="bg-gradient-to-r from-black  via-purple-950 to-black overflow-x-hidden select-none z-[2]">
       <Nav/>
       <Header/>
+      <About />
       <Service/>
       <VideoSection/>
       <PriceList/>

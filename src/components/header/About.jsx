@@ -10,7 +10,7 @@ function About() {
     const iInViewbox = useViewBox(iRef);
 
     return (
-        <article className="relative flex flex-row gap-10 w-4/5 xmd:w-11/12 justify-evenly items-center xmd:flex-col z-[2]">
+        <article className="relative flex flex-row gap-10 w-full pt-20 justify-evenly items-center xmd:flex-col z-[10] bg-gradient-to-r from-black via-purple-950 to-black">
             <div className="relative h-[290px] hidden">
                     <img ref={iRef} className={`rounded-full w-full h-full ${iInViewbox ? "animate-fadein [animation-delay:.2s]" : ""}`} src="./img/vik.webp" alt="Nagy Viktória - Masszőr, Lélekgyógyász" /> 
             </div>

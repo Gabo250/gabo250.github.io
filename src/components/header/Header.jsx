@@ -1,8 +1,6 @@
-import About from "./About";
-
 function Header() {   
     return (
-        <header id="main" className="relative overflow-hidden z-[2]">
+        <header id="main" className="relative overflow-hidden z-[2] h-[50rem] xsm:h-[40rem]">
             <div className="absolute bg-home bg-no-repeat bg-cover w-full h-full bg-fixed grayscale-[60%]"></div>
             
             <section className="relative flex flex-col justify-center items-center pb-40 gap-32 xmd:gap-16 xsm:gap-1 w-full h-full
@@ -15,7 +13,7 @@ function Header() {
                                     text-center italic text-lime-500 whitespace-nowrap">ébrezd fel magad a határokon túl</h2>
                 </article>
                 
-                <About/>
+                
             </section>
         </header>
     )
