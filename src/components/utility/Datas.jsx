@@ -13,7 +13,8 @@ export const personalInfo =
     { 
         name: "Nagy Viktória",
         phone: "+36(30)109-6452",
-        email: "info@gyemantkucko.hu"
+        email: "info@gyemantkucko.hu",
+        location: "2220 Vecsés Ferenc u. 31"
     };
 
 export const priceItems = [
