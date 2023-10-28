@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://gyemantkucko.hu/</loc>
+    <image:image>
+      <image:loc>https://gyemantkucko.hu/japán%20arcmasszázs.webp</image:loc>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://gyemantkucko.hu/metamorf%20masszázs.webp</image:loc>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://gyemantkucko.hu/thai%20masszázs.webp</image:loc>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://gyemantkucko.hu/svéd%20masszázs.webp</image:loc>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://gyemantkucko.hu/talpcsakra%20masszázs.webp</image:loc>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://gyemantkucko.hu/lábmasszázs.webp</image:loc>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://gyemantkucko.hu/köpölyözés.webp</image:loc>
+    </image:image>
+  </url>
+</urlset>
