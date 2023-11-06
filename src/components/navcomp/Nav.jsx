@@ -46,17 +46,19 @@ function Nav() {
                                               md:mt-14 md:items-center md:overflow-hidden">
                     {
                         menuItems.map((item, id) => {
-                            return <NavLink
-                                        key={item.href}
-                                        to={item.href}
-                                        scrollInfo={{behavior: "smooth", block: "start"}}
-                                        first={id === 0 ? true : false}
-                                    >
-                                        <div className="flex flex-row items-center gap-3">
-                                            {item.icon}
-                                            {item.name}
-                                        </div>
-                                    </NavLink>
+                            return (                                
+                                <NavLink
+                                    key={item.href}
+                                    to={item.href}
+                                    scrollInfo={{behavior: "smooth", block: "start"}}
+                                    first={id === 0 ? true : false}
+                                >
+                                    <div className="flex flex-row items-center gap-3">
+                                        {item.icon}
+                                        {item.name}
+                                    </div>
+                                </NavLink>                                                                                      
+                                )                            
                         })
                     }                
                 </nav>

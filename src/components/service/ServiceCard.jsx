@@ -9,10 +9,11 @@ import useViewBox from "../utility/useViewBox";
 * @param imgUrl Image URL of the card
 * @param alt Alternate text of the image
 * @param posLeft Direction of the card
+* @param id Service ID
 *
 * @returns ServiceCard element
 */
-function ServiceCard({ name, description, imgUrl, alt, posLeft }) {
+function ServiceCard({ name, description, imgUrl, alt, posLeft, id }) {
     const articleRef = useRef();
     const imgRef = useRef();
     const textRef = useRef();
@@ -21,7 +22,7 @@ function ServiceCard({ name, description, imgUrl, alt, posLeft }) {
     const textInVievBox = useViewBox(textRef);
 
     return(
-        <article ref={articleRef} className={`relative ${artInViewBox ? 'visible' : 'invisible'}
+        <article ref={articleRef} id={ id } className={`relative ${artInViewBox ? 'visible' : 'invisible'}
                                             ${artInViewBox && posLeft ? 
                                                 'mmd:animate-slideright [clip-path:polygon(0_0,_100%_0,_100%_77%,_90%_100%,_0_100%,_0%_50%)]' : ''}
                                             ${artInViewBox && !posLeft ?

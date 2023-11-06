@@ -3,10 +3,59 @@
 import { ConnIcon, HomeIcon, PriceIcon, ServIcon } from "./Icons";
 
 export const menuItems = [
-    { name: "Főoldal", href: "#main", icon: <HomeIcon/> }, 
-    { name: "Szolgáltatások", href: "#serv", icon: <ServIcon/> },
-    { name: "Árak", href: "#price", icon: <PriceIcon/> },
-    { name: "Kapcsolat", href: "#conn", icon: <ConnIcon/> }
+    {
+        name: "Főoldal",
+        href: "#main",
+        icon: <HomeIcon/> 
+    }, 
+
+    { 
+        name: "Szolgáltatások",
+        href: "#serv",
+        icon: <ServIcon/>, 
+        subMenu: [
+            {
+                name: "Svéd Relaxáló Masszázs",
+                href: "#swedish"
+            },
+            {
+                name: "Thai Herbál Labdacs Masszázs",
+                href: "#thai"
+            },
+            {
+                name: "Japán Arcmasszázs",
+                href: "#japan"
+            },
+            {
+                name: "Köpölyözés",
+                href: "#cupp"
+            },
+            {
+                name: "Metamorf Masszázs",
+                href: "#meta"
+            },
+            {
+                name: "Talpcsakra Masszázs",
+                href: "#csakra"
+            },
+            {
+                name: "Talpmasszázs",
+                href: "#sole"
+            }
+        ] 
+    },
+
+    {
+        name: "Árak",
+        href: "#price",
+        icon: <PriceIcon/> 
+    },
+
+    { 
+        name: "Kapcsolat",
+        href: "#conn",
+        icon: <ConnIcon/>
+    }
 ];
 
 export const personalInfo = 
@@ -33,6 +82,7 @@ export const priceItems = [
 
 export const serviceItems = [
     { 
+        ref: "swedish",
         name: "Svéd Relaxáló Masszázs", 
         description: `A svéd relaxáló masszázs egy hagyományos masszázstechnika, amely célja a test és az elme mély ellazítása.
                      Finom, simító és gyúró mozdulatokkal dolgozunk az izmokon, enyhítve a feszültséget és csökkentve a stresszt.
@@ -43,6 +93,7 @@ export const serviceItems = [
     },
 
     {
+        ref: "thai",
         name: "Thai Herbál Labdacs Masszázs",
         description: `A thai herbál labdacs masszázs egy hagyományos thai terápiás módszer,
                      amely során melegített gyógynövényekkel töltött labdacsokat használunk.
@@ -57,6 +108,7 @@ export const serviceItems = [
     },
 
     {
+        ref: "japan",
         name: "Japán Arcmasszázs",
         description: `A japán arcmasszázs egy hagyományos keleti technika, amely az arc és a nyak területét célozza meg.
                      A masszázs során finom és specifikus mozdulatokkal dolgozunk az arcon lévő feszültségeken és blokkokon.
@@ -68,6 +120,7 @@ export const serviceItems = [
     },
 
     {
+        ref: "cupp",
         name: "Köpölyözés",
         description:`A köpölyözés egy hagyományos terápiás módszer, amely során speciális edényeket,
                     köpölyöket használnak a bőrön kifejtett vákuum erejével. A köpölyök által létrehozott vákuum segít a bőr alatti
@@ -81,6 +134,7 @@ export const serviceItems = [
     },
 
     {
+        ref: "meta",
         name: "Metamorf Masszázs",
         description: `A metamorf masszázs egy holisztikus terápiás módszer, amely az élet kezdeti időszakának hatását kutatja és enyhíti.
                      A kezelés során finom érintésekkel a reflexzónákat stimuláljuk a lábak, a kéz és a fej területén,
@@ -93,6 +147,7 @@ export const serviceItems = [
     },
 
     {
+        ref: "csakra",
         name: "Talpcsakra Masszázs",
         description: `A talpcsakra masszázs egy spirituális és energetikai gyakorlat, amely az ayurvéda és a jóga hagyományaiból ered.
                      A talpcsakrák az emberi test alsó részén, a lábak talpánál található energiaközpontok,
@@ -104,6 +159,7 @@ export const serviceItems = [
     },
 
     {
+        ref: "sole",
         name: "Talpmasszázs",
         description: `A talpmasszázs egy terápiás technika, amely a lábak talpán található reflexzónákat stimulálja.
                      A hagyományos kínai és thai gyógyászatban is elterjedt módszer,

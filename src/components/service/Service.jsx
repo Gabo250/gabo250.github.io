@@ -21,6 +21,7 @@ function Service() {
                                 imgUrl={ service.img }
                                 alt={ service.alt }
                                 posLeft={id % 2 === 0}
+                                id={ service.ref }
                                 />
                             <Indicator left={ id % 2 === 0 }  last={ id === services.length - 1 }/>
                         </div>
