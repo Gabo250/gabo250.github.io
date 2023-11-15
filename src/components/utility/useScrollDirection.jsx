@@ -8,7 +8,7 @@ import useScroll from "./useScroll";
 */
 function useScrollDirection() {
     const [scrollY, prevScrollY] = useScroll();
-    const [scrollDirectionDown, setScrollDirectionDown] = useState(false);
+    const [scrollDirectionDown, setScrollDirectionDown] = useState(() => { return false });
 
     useEffect(() => {
         let diff = scrollY - prevScrollY;

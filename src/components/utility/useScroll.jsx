@@ -7,8 +7,8 @@ import { useState, useEffect, useRef } from "react";
 * @returns prevScrollY
 */
 function useScroll() {
-    const [scrollY, setScrollY] = useState(0);
-    const [prevScrollY, setPrevScrollY] = useState(scrollY);
+    const [scrollY, setScrollY] = useState(() => { return window.scrollY });
+    const [prevScrollY, setPrevScrollY] = useState(() => { return scrollY });
 
     const timeOutID = useRef();
 

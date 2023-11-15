@@ -11,7 +11,7 @@ import useViewBox from "../utility/useViewBox";
 */
 function PriceCard({ servName, servTimePrice }) {    
     const objProperties = Object.keys(servTimePrice);
-    const [price, setPrice] = useState(servTimePrice[objProperties[0]]);
+    const [price, setPrice] = useState(() => { return servTimePrice[objProperties[0]] });
     const cardRef = useRef();
     const cardInViewBox = useViewBox(cardRef);
 

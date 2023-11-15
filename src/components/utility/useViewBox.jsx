@@ -9,7 +9,7 @@ import useScroll from "./useScroll";
 * @returns inViewBox
 */
 function useViewBox(element) {
-    const [inViewBox, setInViewBox] = useState(false);
+    const [inViewBox, setInViewBox] = useState(() => { return false });
     const [scrollY] = useScroll();
     const OFFSET = 50;
 

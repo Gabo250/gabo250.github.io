@@ -2,7 +2,7 @@ import { useState } from "react";
 import { getCookie, setCookie } from "./cookieUtility";
 
 function Cookie() {
-    const [ visible, setVisible ] = useState(getCookie("accepted") ? false : true);
+    const [ visible, setVisible ] = useState(() => { return getCookie("accepted") ? false : true });
 
     const handleCloseClick = () => {
         setCookie("accepted", true);
