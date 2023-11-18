@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import useScroll from "./useScroll";
 
+const OFFSET = 50;
+
 /**
 * Checks a react element to if it is in the viewport
 *
@@ -10,8 +12,7 @@ import useScroll from "./useScroll";
 */
 function useViewBox(element) {
     const [inViewBox, setInViewBox] = useState(() => { return false });
-    const [scrollY] = useScroll();
-    const OFFSET = 50;
+    const [scrollY] = useScroll();    
 
     useEffect(() => {
         if (!element.current){

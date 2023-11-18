@@ -84,10 +84,10 @@ export const serviceItems = [
     { 
         ref: "swedish",
         name: "Svéd Relaxáló Masszázs", 
-        description: `A svéd relaxáló masszázs egy hagyományos masszázstechnika, amely célja a test és az elme mély ellazítása.
+        description: `Egy hagyományos masszázstechnika, amely célja a test és az elme mély ellazítása.
                      Finom, simító és gyúró mozdulatokkal dolgozunk az izmokon, enyhítve a feszültséget és csökkentve a stresszt.
                      A kezelés segíti a vérkeringést, lazítja az izmokat és javítja az általános közérzetet.
-                     A svéd masszázs gyakran használt módszer a pihenésre és a testi-lelki egyensúly helyreállítására.`,
+                     Gyakran használt módszer a pihenésre és a testi-lelki egyensúly helyreállítására.`,
         img: "./img/svéd masszázs.webp",
         alt: "svéd hátmasszázs"
     },
@@ -95,13 +95,13 @@ export const serviceItems = [
     {
         ref: "thai",
         name: "Thai Herbál Labdacs Masszázs",
-        description: `A thai herbál labdacs masszázs egy hagyományos thai terápiás módszer,
+        description: `Hagyományos thai terápiás módszer,
                      amely során melegített gyógynövényekkel töltött labdacsokat használunk.
                      A labdacsokat általában gyógynövényekkel, például gyömbérrel, citronellával és kurkumával töltjük meg, majd melegítjük.
                      A meleg labdacsokat különböző mozdulatokkal dörzsöljük, nyomkodjuk a testen,
                      ami segít a gyógynövények illóolajainak felszabadulásában és a test relaxációjában.
-                     A Masszázs enyhíti a feszültséget, javítja a vérkeringést, lazítja az izmokat és segíti az energetikai áramlást.
-                     A thai herbál labdacs masszázs hozzájárul a test és a lélek harmóniájának eléréséhez,
+                     A Masszázs enyhíti a feszültséget, javítja a vérkeringést, lazítja az izmokat és segíti az energetikai áramlást, 
+                     és hozzájárul a test és a lélek harmóniájának eléréséhez,
                      és gyakran alkalmazható stresszkezelésre és általános jóllét javítására.`,
         img: "./img/thai masszázs.webp",
         alt: "Thai Labdacs Masszázs"
@@ -110,11 +110,11 @@ export const serviceItems = [
     {
         ref: "japan",
         name: "Japán Arcmasszázs",
-        description: `A japán arcmasszázs egy hagyományos keleti technika, amely az arc és a nyak területét célozza meg.
+        description: `Hagyományos keleti technika, amely az arc és a nyak területét célozza meg.
                      A masszázs során finom és specifikus mozdulatokkal dolgozunk az arcon lévő feszültségeken és blokkokon.
                      Gyengéd mozdulatokkal munkáljuk az arcbőrt, elősegítve a vérkeringést és az izmok ellazulását.
                      Ez a fajta masszázs nem csak az izmokat lazítja, hanem a stresszt is csökkenti, és az arc általános megjelenését is javítja.
-                     A japán arcmasszázst gyakran használják a relaxációra, a stressz enyhítésére és az arc revitalizálására.`,
+                     Gyakran használják a relaxációra, a stressz enyhítésére és az arc revitalizálására.`,
         img: "./img/japán arcmasszázs.webp",
         alt: "japán arcmasszázs"
     },
@@ -122,7 +122,7 @@ export const serviceItems = [
     {
         ref: "cupp",
         name: "Köpölyözés",
-        description:`A köpölyözés egy hagyományos terápiás módszer, amely során speciális edényeket,
+        description:`Hagyományos terápiás módszer, amely során speciális edényeket,
                     köpölyöket használnak a bőrön kifejtett vákuum erejével. A köpölyök által létrehozott vákuum segít a bőr alatti
                     szövetek és izmok stimulálásában, az áramlások javításában. A köpölyök gyógynövényekkel és illóolajokkal vannak átitatva.
                     A kezelés során a köpölyöket a bőrre helyezzük, majd kialakuló vákuum miatt a bőr és a szövetek megemelkednek.
@@ -136,12 +136,12 @@ export const serviceItems = [
     {
         ref: "meta",
         name: "Metamorf Masszázs",
-        description: `A metamorf masszázs egy holisztikus terápiás módszer, amely az élet kezdeti időszakának hatását kutatja és enyhíti.
+        description: `Holisztikus terápiás módszer, amely az élet kezdeti időszakának hatását kutatja és enyhíti.
                      A kezelés során finom érintésekkel a reflexzónákat stimuláljuk a lábak, a kéz és a fej területén,
                      amelyek a gerincoszlop mentén helyezkednek el.
                      Az elv az, hogy ezek a területek kapcsolatban állnak az embrió fejlődési időszakával,
                      és az érintés segíthet oldani az ott raktározott blokkokat és feszültségeket.
-                     A metamorf masszázs célja az energetikai egyensúly helyreállítása és a lelki, testi és érzelmi feszültségek enyhítése.`,
+                     A masszázs célja az energetikai egyensúly helyreállítása és a lelki, testi és érzelmi feszültségek enyhítése.`,
         img: "./img/metamorf masszázs.webp",
         alt: "metaform masszázs - láb-kéz-arc"
     },
@@ -149,7 +149,7 @@ export const serviceItems = [
     {
         ref: "csakra",
         name: "Talpcsakra Masszázs",
-        description: `A talpcsakra masszázs egy spirituális és energetikai gyakorlat, amely az ayurvéda és a jóga hagyományaiból ered.
+        description: `Spirituális és energetikai gyakorlat, amely az ayurvéda és a jóga hagyományaiból ered.
                      A talpcsakrák az emberi test alsó részén, a lábak talpánál található energiaközpontok,
                      amelyek kapcsolatban állnak az alapvető életenergiával.
                      Finom érintésekkel és nyomásokkal stimuláljuk ezeket a területeket, segítve az energiák áramlását és a blokkok feloldását.
