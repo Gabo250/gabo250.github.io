@@ -1,5 +1,6 @@
 import { useRef } from "react";
-import useViewBox from "../utility/useViewBox";
+import useViewBox from "../hooks/useViewBox";
+
 
 function Indicator({ left, last }) {
     const indRef = useRef();

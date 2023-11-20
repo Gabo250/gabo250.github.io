@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
-import useViewBox from "../utility/useViewBox";
+import useViewBox from "../hooks/useViewBox";
+
 
 /**
 * Creates a Card for price component

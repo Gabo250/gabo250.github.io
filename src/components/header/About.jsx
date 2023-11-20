@@ -1,6 +1,6 @@
 import { useRef } from "react";
-import useViewBox from "../utility/useViewBox";
 import { personalInfo } from "../utility/Datas";
+import useViewBox from "../hooks/useViewBox";
 
 function About() {
     const iRef = useRef();

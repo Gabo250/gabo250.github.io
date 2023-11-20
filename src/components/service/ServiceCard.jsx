@@ -1,5 +1,6 @@
 import { useRef } from "react";
-import useViewBox from "../utility/useViewBox";
+import useViewBox from "../hooks/useViewBox";
+
 
 /**
 * Creates a Card for service component

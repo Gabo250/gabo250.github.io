@@ -2,7 +2,8 @@ import { useEffect, useRef } from "react";
 import { menuItems } from "../utility/Datas";
 import Burger from "./Burger";
 import NavLink from "./Navlink";
-import useScrollDirection from "../utility/useScrollDirection";
+import useScrollDirection from "../hooks/useScrollDirection";
+
 
 function Nav() {
     const menuRef = useRef();
