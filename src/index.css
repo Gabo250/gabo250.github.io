@@ -29,6 +29,36 @@ html {
     box-shadow: inset 0 0 10px white;
 }
 
+.tooltip-after {
+    @apply
+        after:content-['']
+        after:absolute
+        after:top-[100%]
+        after:left-[50%]
+        after:-translate-x-[50%]
+        after:border-solid
+        after:[border-width:6px]
+        after:border-slate-600
+        after:[border-color:rgb(71_85_105_/_80%)_transparent_transparent_transparent]
+}
+
+.navlink-after {
+    @apply
+        after:absolute
+        after:w-[1px]
+        after:h-4
+        after:bg-purple-300
+        after:top-[28px]
+        after:left-0
+        after:border-solid
+        after:border-red-400
+        md:after:w-8
+        md:after:h-[1px]
+        md:after:-top-1
+        md:after:-translate-x-1/2
+        md:after:left-1/2
+}
+
 @layer utilities {
     .fill-mode-forward {
         animation-fill-mode: forwards;

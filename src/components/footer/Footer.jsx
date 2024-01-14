@@ -10,8 +10,7 @@ function Footer() {
                                 xsm:relative xmd:gap-8 xmd:top-[calc(100%-40rem)] xmd:h-[40rem]">
                 
                 <div className="flex flex-col items-center xsm:!gap-8 xmd:gap-[5vw] gap-10 mt-1">
-                    <div className="flex flex-row items-center justify-center gap-8 border-dashed border-b-[1px] border-purple-300
-                                    pb-10 xsm:!border-r-0 xsm:!border-b-[1px] xsm:!pb-10 xsm:!pr-0">
+                    <div className="flex flex-row items-center justify-center gap-8">
                         <a target="_blank" aria-label="Check my Instagram page" rel="noreferrer external" href="https://www.facebook.com/profile.php?id=100091972387797" className="relative group">
                             <FBIcon classes={"hover:scale-110 transition-all drop-shadow-[0px_5px_6px_#4444dd]"}/>
                             <Tooltip>Facebook</Tooltip>

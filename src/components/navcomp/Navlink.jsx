@@ -28,14 +28,15 @@ function NavLink({ to, scrollInfo, first, children }) {
     }
 
     return (
-        <a href={to} onClick={ clickHandle }
-            className={`uppercase relative transition-transform duration-500 text-[13px] text-neutral-200
-                        hover:font-extrabold hover:scale-[1.1] p-6
-                        ${ first ? 'after:content-none' :  'after:content-[""]'}              
-                        after:absolute after:w-[1px] after:h-4 after:bg-purple-300 after:top-[28px] after:left-0
-                        after:border-solid after:border-red-400
-                        md:after:w-8 md:after:h-[1px] md:after:-top-1 md:after:-translate-x-1/2 md:after:left-1/2`}
-        >{children}</a>
+      <a
+        href={to}
+        onClick={clickHandle}
+        className={`uppercase relative transition-transform duration-500 text-[13px] text-neutral-200
+                    hover:font-extrabold hover:scale-[1.1] p-6 navlink-after
+                        ${first ? "after:content-none" : 'after:content-[""]'}`}
+      >
+        {children}
+      </a>
     );
 }
 
